@@ -1,0 +1,119 @@
+body {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(44, 43, 43, 0.5)), url("picture/image7.jpg");
+}
+
+.custom-logo {
+    max-width: 35px;
+    height: auto;
+}
+
+
+.img-thumbnail {
+    width: 270px; /* Make images fill the width of their container */
+    height: 150px; /* Maintain aspect ratio */
+    border: 2px solid #ddd; /* Gray border around the image */
+    border-radius: 8px; /* Rounded corners for the images */
+    margin-bottom: 10px; /* Spacing between images */
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin-left: auto; /* Centers the image on the left */
+    margin-right: auto;
+}
+
+/* Hover effect for images */
+.img-thumbnail:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Custom styles for the home page content */
+.jumbotron {
+    background-image: url("picture/back.jpg"); /* Light background color for the jumbotron */
+    padding: 10px;
+    border-radius: 15px; /* Rounded corners for the jumbotron */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.container {
+    max-width: 1200px; /* Adjust the maximum width as needed */
+}
+
+.jumbotron h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+.text {
+    text-align: center;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    color: #6c757d;
+    text-align: center;
+}
+
+.jumbotron hr {
+    border-top: 2px solid crimson;
+}
+
+.jumbotron ul {
+    list-style-type: none;
+}
+
+.jumbotron ul li {
+    padding: 5px 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Add your custom styles for other pages and components */
+
+
+.card-img-top {
+    object-fit: cover;
+    height: 300px;
+}
+
+.card{
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.term {
+    text-align: center;
+    color: #343a40;
+}
+
+#animate {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+img.animated-gif{
+    width: 60px;
+    height: auto;
+}
+
+
+
+
